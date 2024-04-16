@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         if (direction == 0)
         {
             _coveredDistance = 0;
+            
             return;
         }
 
